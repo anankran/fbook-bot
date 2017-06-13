@@ -6,7 +6,7 @@ You'll have to have an Meteor project. To do this, read the <a href="https://gui
 
 To use this, you'll have to install a few packages with commands below.
 
-To HTTP requests:
+To make HTTP requests:
 
 <pre>meteor add http</pre>
 
