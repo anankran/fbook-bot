@@ -2,7 +2,7 @@
 
 Basic application to post messages with Meteor.js.
 
-You'll have to create an Meteor.js project first of all. To do this, read the <a href="https://guide.meteor.com/?_ga=2.169674854.650383976.1497288145-851991966.1493327724" target="_blank">official documentation</a>.
+You'll have to create an Meteor.js project first of all. To do this, read the <a href="https://guide.meteor.com/?_ga=2.169674854.650383976.1497288145-851991966.1493327724" target="_blank">official documentation</a>. Replace the original files to the ones in this repository.
 
 To use this, you'll have to install a few packages with commands below.
 
