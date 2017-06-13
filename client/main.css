@@ -1,0 +1,6 @@
+body{width:96%;padding:2%;color:#222}
+div[style="margin: 0 auto; color: red;"] { display: none !important; }
+#messages-container{height:auto;}
+form{margin-top:12px;}
+form button{margin-top:6px;}
+.remove{color:#f00;cursor:pointer;}

@@ -1,0 +1,27 @@
+<head>
+  <title>Meteor Chat</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+
+<body>
+  <h1>Welcome to the chat!</h1>
+  {{> messages}}
+</body>
+
+<template name="messages">
+  <div class="form-control" id="messages-container" readonly="readonly">
+  {{#each message in messages }}
+      <p>
+        <strong>You</strong> <i>{{ formatDate message.createdAt }}</i><br>
+        {{ message.text }}<br>
+        <!--{{#if equals message.ip ip}}-->
+          <a id="{{ message._id }}" class="remove">Delete</a>
+        <!-- {{/if}} -->
+      </p>
+  {{/each}}
+  </div>
+  <form id="send-message" class="form">
+    <textarea placeholder="Send a message" name="message" class="form-control"></textarea>
+    <button class="btn btn-primary">Send</button>
+  </form>
+</template>
